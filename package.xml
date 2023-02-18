@@ -1,0 +1,19 @@
+<package format="3">
+  <name>ros2_esp32</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="user@todo.todo">user</maintainer>
+  <license>TODO: License declaration</license>
+
+  <build_depend>rclrs</build_depend>
+  <build_depend>rosidl_runtime_rs</build_depend>
+  <build_depend>ros2_esp32_interfaces</build_depend>
+
+  <exec_depend>rclrs</exec_depend>
+  <exec_depend>rosidl_runtime_rs</exec_depend>
+  <exec_depend>ros2_esp32_interfaces</exec_depend>
+
+  <export>
+    <build_type>ament_cargo</build_type>
+  </export>
+</package>
