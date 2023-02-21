@@ -1,5 +1,5 @@
 [package]
-name = "ros2-esp32"
+name = "ros2_esp32"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 rclrs = "*"
-ros2-esp32_interfaces = "*"
+ros2_esp32_interfaces = "*"
